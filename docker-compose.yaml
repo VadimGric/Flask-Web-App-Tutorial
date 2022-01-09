@@ -3,4 +3,4 @@ services:
   web:
     image: localhost:5000/python  
     ports:
-      - "8080:8080"
+      - "4040:4040"

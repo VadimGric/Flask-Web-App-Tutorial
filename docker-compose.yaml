@@ -1,6 +1,6 @@
 version: '3.7'
 services:
   web:
-    image: localhost:5000/python  
+    build: . 
     ports:
       - "8081:8081"
